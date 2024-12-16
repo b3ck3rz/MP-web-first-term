@@ -1,0 +1,921 @@
+@import './_reset.css';
+@import './_global.css';
+
+::selection {
+    color: white;
+    background-color: #FA0369;
+}   
+
+.block {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    padding: 0 147px 0 147px;
+    background-color: #10151C;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #10151C;
+}
+
+.Hero {
+    background-color: #10151C;
+    padding: 66px 0;
+}
+
+.header-nav-list {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header-nav-list ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#chat-button {
+    border-radius: 100px;
+    padding: 10px 24px 10px 24px;
+    background-color: rgba(255, 255, 255, 10%);
+    border: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+#chat-button:hover {
+    background-color: rgba(255, 255, 255, 25%);
+    transition: .25s;
+}
+
+#chat-button:active {
+    background-color: rgba(255, 255, 255, 100%);
+    color: #10151C;
+}
+
+.container.Hero {
+    height: 650px;
+    position: relative;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 48px;
+}
+
+.button-content {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-button {
+    width: fit-content;
+    font-size: 1.8rem;
+    color: white;
+    padding: 16px 48px 16px 48px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FA0369;
+}
+
+.big-button:hover {
+    background-color: #FC1C79;
+    transition: 0.25s;
+}
+
+.big-button:active {
+    background-color: #FD68A5;
+    transition: 0.25s;
+}
+
+.caption {
+    width: fit-content;
+    color: #7E8597;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.background-block {
+    max-width: 560px;
+    width: 100%;
+    height: 571px;
+    background: rgb(67, 35, 113);
+    background: linear-gradient(180deg, rgba(67, 35, 113, 1) 0%, rgba(250, 174, 123, 1) 100%);
+    border-radius: 24px;
+}
+
+.tiktok-screen.Hero {
+    position: absolute;
+    margin: 0 auto;
+    right: 90px;
+    z-index: 2;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 10%);
+    border-radius: 16px;
+    padding: 0;
+}
+
+.Logos {
+    background-color: #10151C;
+    padding: 90px 0;
+}
+
+.container.logo-list {
+    justify-content: space-between;
+}
+
+.Steps {
+    background-color: #10151C;
+    padding: 90px 0;
+}
+
+.container.Steps {
+    display: block;
+    background-color: #10151C;
+    padding: 0;
+}
+
+#title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-caption {
+    font-size: 1.6rem;
+    color: #FA0369;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 4.2rem;
+    line-height: 130%;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+
+.step-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    width: 264px;
+    height: 262px;
+    background-color: #141A25;
+    border-radius: 24px;
+}
+
+.icons {
+    height: 48px;
+    width: 48px;
+    margin: 42px 0 42px 0;
+}
+
+.mini-button {
+    width: fit-content;
+    font-size: 1.4rem;
+    color: white;
+    padding: 5px 14px 5px 14px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FA0369;
+}
+
+.caption.mini {
+    width: fit-content;
+    color: #7E8597;
+    font-size: 1.8rem;
+    line-height: 130%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.Features {
+    background-color: #10151C;
+    padding: 66px 0;
+}
+
+.container.Features {
+    height: 650px;
+    position: relative;
+    background-color: inherit;
+}
+
+h3 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.text-block {
+    font-size: 2.1rem;
+    line-height: 150%;
+    color: #7E8597;
+}
+
+.text-content {
+    margin-bottom: 48px;
+}
+
+.background-block.circle {
+    border-radius: 500px;
+}
+
+.tiktok-screen.Features {
+    position: absolute;
+    bottom: -27px;
+    left: 90px;
+    z-index: 2;
+    border-radius: 0;
+}
+
+.tiktok-screen.Elem {
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 10%);
+    border-radius: 16px;
+}
+
+.tiktok-screen.Elem.right {
+    right: 113px;
+}
+
+.tiktok-screen.Elem.left {
+    left: 85px;
+}
+
+.tiktok-background.first {
+    position: absolute;
+    z-index: 1;
+    rotate: 3.5deg;
+    background-color: #141A25;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 10%);
+    border-radius: 16px;
+}
+
+.tiktok-background.first.right {
+    width: 365px;
+    height: 631px;
+    right: 99px;
+    bottom: 14px;
+}
+
+.tiktok-background.first.left {
+    width: 330px;
+    height: 570px;
+    left: 114px;
+}
+
+.tiktok-background.second {
+    position: absolute;
+    z-index: 0;
+    rotate: 4.5deg;
+    background-color: #141A25;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 10%);
+    border-radius: 16px;
+}
+
+.tiktok-background.second.right {
+    width: 341px;
+    height: 591px;
+    right: 88px;
+    bottom: 34px;
+}
+
+.tiktok-background.second.left {
+    width: 308px;
+    height: 535px;
+    left: 148px;
+}
+
+.audience-block {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.audience-icons {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.icons.audience {
+    width: 24px;
+    height: 24px;
+}
+
+.audience-caption {
+    margin-top: 16px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.why-title {
+    padding-bottom: 60px;
+}
+
+.container.why {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 60px 130px 60px 130px;
+    margin: 180px 0px 91px 0px;
+    border-radius: 24px;
+}
+
+#answer-block>*:not(:nth-child(1)) {
+    margin-top: 40px;
+}
+
+#answer-block {
+    margin-top: 24px;
+}
+
+.answer-text {
+    font-size: 1.8rem;
+    line-height: 130%;
+    color: white;
+}
+
+.arrow {
+    margin-top: 40px;
+}
+
+.big-button.arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.big-button.arrow img {
+    margin-left: 10px;
+}
+
+#phone {
+    height: 584px;
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+}
+
+.container.CTA {
+    justify-content: space-between;
+    background-color: white;
+    padding: 120px 0;
+}
+
+.container.CTA * {
+    margin: 0;
+}
+
+.container.CTA h3 {
+    margin-bottom: 16px;
+    color: #1A1A1A;
+}
+
+.container.CTA p {
+    color: #7E8597;
+}
+
+#copyright {
+    font-size: 1.4rem;
+    font-family: var(--second-family);
+    color: rgb(26, 26, 26, 56%);
+}
+
+#copyright br {
+    display: none;
+}
+
+#social-network {
+    display: flex;
+    flex-direction: row;
+}
+
+#social-network>*:not(:nth-child(4)) {
+    margin-right: 32px;
+}
+
+.footer {
+    border-top: 1px solid black;
+}
+
+.footer.container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    border: 0;
+}
+
+@media (max-width: 375px) {
+
+    h1 {
+        color: white;
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .block {
+        padding: 0 24px;
+    }
+
+    .header {
+        width: 100%;
+        padding: 0 0px 80px 0px;
+        background-color: #10151C;
+    }
+
+    #chat-button {
+        padding: 10px 24px 10px 24px;
+        font-size: 1.4rem;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .info-block h1 {
+    margin: 0;
+    }
+
+    .info-block h1::after {
+        content: '';
+        display: block;
+        width: 327px;
+        height: 327px;
+        background-color: #FA0369;
+        background: rgb(67, 35, 113);
+        background: linear-gradient(180deg, rgba(67, 35, 113, 1) 0%, rgba(250, 174, 123, 1) 100%);
+        border-radius: 24px;
+        margin: 77px 0;
+        margin-bottom: 67px;
+    }
+
+    .button-content {
+        order: 10;
+    }
+
+    .caption {
+        margin-top: 5px;
+    }
+
+    .container.Hero,
+    .section.Hero {
+        padding-top: 0;
+    }
+
+    .grid-hero {
+        padding: 0;
+    }
+
+    .background-block {
+        height: 327px;
+        display: none;
+    }
+
+    .tiktok-screen.Hero {
+        padding: 0;
+        width: 220px;
+        left: 53px;
+        top: 160px;
+    }
+
+    #company-logo {
+        max-width: 144px;
+    }
+
+    .Logos {
+        padding-top: 15px;
+        padding-bottom: 90px;
+    }
+
+    .container.logo-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        column-gap: 28px;
+    }
+
+    .Steps {
+        padding-top: 0;
+        padding-bottom: 80px    ;
+    }
+
+    .steps-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        row-gap: 30px;
+    }
+
+    .Features {
+        padding-top: 0;
+    }
+
+    .container.Features {
+        height: 330px;
+    }
+
+    .why-title {
+        padding-bottom: 50px;
+    }
+
+    .why-title::after {
+        content: '';
+        display: block;
+        width: 327px;
+        height: 327px;
+        background-color: #FA0369;
+        background: rgb(67, 35, 113);
+        background: linear-gradient(180deg, rgba(67, 35, 113, 1) 0%, rgba(250, 174, 123, 1) 100%);
+        border-radius: 24px;
+        margin: 50px 0;
+        margin-bottom: 55px;
+    }
+
+    .tiktok-screen.Features {
+        left: 50px;
+        top: -455px;
+        width: 220px;
+        padding: 0;
+    }
+
+    .text-content{
+        margin-bottom: 30px;
+    }
+
+    .text-content h3 {
+        margin-bottom: 30px;
+        font-size: 2.4rem;
+    }
+
+    .text-block {
+        font-size: 1.6rem;
+    }
+
+    .text-block br {
+        display: none;
+    }
+
+    .big-button {
+        font-size: 1.4rem;
+        padding: 10px 68px;
+    }
+
+    .Features-second {
+        padding-top: 190px;
+        padding-bottom: 420px;
+    }
+
+    .convert::before {
+        content: '';
+        display: block;
+        width: 327px;
+        height: 327px;
+        background-color: #FA0369;
+        background: rgb(67, 35, 113);
+        background: linear-gradient(180deg, rgba(67, 35, 113, 1) 0%, rgba(250, 174, 123, 1) 100%);
+        border-radius: 24px;
+        margin-bottom: 60px;
+    }
+
+    h3.convert {
+        margin-bottom: 15px;
+    }
+
+    .tiktok-screen.Elem.right {
+        width: 220px;
+        left: 52px;
+        top: -235px;
+    }
+
+    .audience-block {
+        margin-bottom: 40px;
+    }
+
+    .audience-caption {
+        font-size: 1.8rem;
+    }
+
+    .endorsed::before {
+        content: '';
+        display: block;
+        width: 327px;
+        height: 327px;
+        background-color: #FA0369;
+        background: rgb(67, 35, 113);
+        background: linear-gradient(180deg, rgba(67, 35, 113, 1) 0%, rgba(250, 174, 123, 1) 100%);
+        border-radius: 50%;
+        margin: 100px 0;
+        margin-bottom: 75px;
+    }
+
+    .tiktok-screen.Elem.left {
+        left: 55px;
+        width: 220px;
+        top: -180px;
+    }
+
+    .Features-third {
+        padding-bottom: 300px;
+    }
+
+    .tiktok-background.second.left,
+    .tiktok-background.first.left,
+    .tiktok-background.second.right,
+    .tiktok-background.first.right {
+        display: none;
+    }
+
+    .big-button.arrow {
+        padding: 10px 34px;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    .container.why {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 80px 0px 45px 0px;
+        padding: 70px 20px;
+    }
+
+    .container.why h2{
+        font-size: 3.2rem;
+        margin-bottom: 38px;
+    }
+
+    .big-button.arrow {
+        padding: 10px 30px;
+    }
+
+    #answer-block {
+        margin: 0;
+    }
+
+    .answer-text {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .answer-text br {
+        display: none;
+    }
+
+    .container.CTA {
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .moving{
+        font-size: 3.2rem;
+        margin-bottom: 38px;
+    }
+
+    .moving::after {
+        margin-top: 38px;
+        margin-bottom: 33px;
+        content: '';
+        display: block;
+        max-width: 324px;
+        width: 100%;
+        height: 306px;
+        background-image: url(../img/AdTok.png);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    
+    #AdTok{
+        display: none;
+    }
+
+    #copyright br {
+        display: block;
+    }
+
+    #social-network {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 32px;
+    }
+
+    #social-network>*:not(:nth-child(4)) {
+        margin-right: 0;
+    }
+
+}
+
+#grid-page {
+    font-size: 1.6rem;
+}
+
+#picture-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#picture {
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 90px 110px 170px 80px;
+    grid-template-rows: 45px 170px 170px 70px;
+    gap: 10px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 30%);
+}
+
+.item {
+    background-color: white;
+}
+
+.white1 {
+    grid-column: span 2;
+}
+
+.black1 {
+    background-color: black;
+}
+
+.blue {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #0062A8;
+}
+
+.yellow {
+    grid-column: span 2;
+    background-color: #E6CC01;
+}
+
+.black2 {
+    background-color: black;
+}
+
+.white6 {
+    grid-column: span 2;
+}
+
+#graph-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#graph {
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 148px 1000px;
+    background-color:  white;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 30%);
+    border: 25px solid white;
+    border-radius: 35px;
+}
+
+#graph * {
+    border-radius: 20px;
+}
+
+#graph-blocks {
+    height: 500px;
+    width: 1000px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+#graph-info {
+    width: 148px;
+    height: auto;
+    background-color: #FA0369;
+}
+
+.graph-block1 {
+    grid-column: span 6;
+    background-color: #FD3588;
+}
+
+.graph-block2 {
+    grid-column: span 2;
+    background-color:#FD68A5
+}
+
+.graph-block3 {
+    grid-column: span 3;
+    background-color: #FE9AC3;
+}
+
+#ram-container {
+    padding: 50px 0;
+}
+
+#ram {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    justify-items: center;
+}
+
+.ram-image {
+    width: 250px;
+    height: 250px;
+    display: grid;
+    background-color: #FA0369;
+    justify-items: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 30%);
+}
+
+.ram-button {
+    font-size: 1.8rem;
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+
+}
+
+.image1 {
+    background-image: url("../img/kitten1.jpg");
+    background-size: cover;
+}
+
+
+.image2 {
+    background-image: url("../img/kitten2.jpg");
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("../img/kitten3.jpg");
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url("../img/kitten4.jpg");
+    background-size: cover;
+}
